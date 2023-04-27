@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrap content-block">
+      <a href="">
+        <img class="header__logo" src="./logo.svg" alt="logo">
+      </a>
+      <nav class="header__navigation">
+        <ul>
+          <li class="header__navigation-item">
+            <a href="">
+              ПРО ІНСТИТУТ
+            </a>
+            <div class="header__navigation__drop-down">
+              <ul>
+                <li>
+                  <a href="">
+                    Напрями досліджень
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Наукові школи
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Керівництво
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Наукові ради
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Структура
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Історія інтситуту
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__navigation-item">
+            <a href="">
+              ДІЯЛЬНІСТЬ
+            </a>
+          </li>
+          <li class="header__navigation-item">
+            <a href="">
+              ВИДАННЯ
+            </a>
+            <div class="header__navigation__drop-down">
+              <ul>
+                <li>
+                  <a href="">
+                    Монографії
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Наукові доповіді
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Збірники наукових праць
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__navigation-item">
+            <a href="">
+              ПІДГОТОВКА КАДРІВ
+            </a>
+            <div class="header__navigation__drop-down">
+              <ul>
+                <li>
+                  <a href="">
+                    Аспірантура
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Докторантура
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <form class="search header__search" for="search">
+        <input id="search" class="search__input" type="text" placeholder="Пошук">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_14_46)">
+            <path
+              d="M7.24444 14.4827C8.8533 14.4828 10.4161 13.946 11.6854 12.9574L16.474 17.746C16.8317 18.0914 17.4017 18.0815 17.7472 17.7238C18.0842 17.3748 18.0842 16.8216 17.7472 16.4727L12.9586 11.6842C15.4118 8.52625 14.8406 3.97758 11.6827 1.5244C8.52475 -0.92878 3.97612 -0.357519 1.52294 2.80039C-0.930245 5.95829 -0.358984 10.507 2.79892 12.9601C4.07027 13.9478 5.63452 14.4836 7.24444 14.4827ZM3.39686 3.39556C5.52184 1.27054 8.96711 1.2705 11.0921 3.39548C13.2171 5.52046 13.2172 8.96573 11.0922 11.0907C8.96723 13.2158 5.52196 13.2158 3.39694 11.0908C3.3969 11.0908 3.3969 11.0908 3.39686 11.0907C1.27188 8.98125 1.25936 5.54854 3.36886 3.42356C3.37818 3.4142 3.3875 3.40488 3.39686 3.39556Z"
+              fill="#333333" />
+          </g>
+          <defs>
+            <clipPath id="clip0_14_46">
+              <rect width="18" height="18" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </form>
+      <div class="header__language">
+        <a class="header__language-link active" href="<?= SITE_URL_UK ?>">
+          UA
+        </a>
+        <a class="header__language-link" href="<?= SITE_URL_EN ?>">
+          EN
+        </a>
+      </div>
+      <img class="header__burger-menu" src="./ic_burger-menu.svg" alt="menu">
+    </div>
+  </header>
+  <div class="mobile-bcg"></div>
+  <div class="mobile-menu">
+    <div class="mobile-menu__content">
+      <img class="mobile-menu__close" src="./img/ic_close.svg" alt="close">
+      <nav class="mobile-menu__navigation">
+        <ul>
+          <li class="mobile-menu__main-menu">
+            <div class="mobile-menu__link-wrap">
+              <a class="mobile-menu__link" href="">ПРО ІНСТИТУТ</a>
+              <img class="mobile-menu__arrow" src="./img/ic_drop-down-mobile-arrow.svg" alt="arrow">
+            </div>
+            <ul class="mobile-menu__sub-menu">
+              <li>
+                <a href="">Напрями досліджень</a>
+              </li>
+              <li>
+                <a href="">Наукові школи</a>
+              </li>
+              <li>
+                <a href="">Керівництво</a>
+              </li>
+              <li>
+                <a href="">Наукові ради</a>
+              </li>
+              <li>
+                <a href="">Структура</a>
+              </li>
+              <li>
+                <a href="">Історія інституту</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-menu__main-menu">
+            <div class="mobile-menu__link-wrap">
+              <a class="mobile-menu__link" href="">ДІЯЛЬНІСТЬ</a>
+            </div>
+          </li>
+          <li class="mobile-menu__main-menu">
+            <div class="mobile-menu__link-wrap">
+              <a class="mobile-menu__link" href="">ВИДАННЯ</a>
+              <img class="mobile-menu__arrow" src="./img/ic_drop-down-mobile-arrow.svg" alt="arrow">
+            </div>
+            <ul class="mobile-menu__sub-menu">
+              <li>
+                <a href="">Монографії</a>
+              </li>
+              <li>
+                <a href="">Наукові доповіді</a>
+              </li>
+              <li>
+                <a href="">Збірники наукових праць</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-menu__main-menu">
+            <div class="mobile-menu__link-wrap">
+              <a class="mobile-menu__link" href="">ПІДГОТОВКА КАДРІВ</a>
+              <img class="mobile-menu__arrow" src="./img/ic_drop-down-mobile-arrow.svg" alt="arrow">
+            </div>
+            <ul class="mobile-menu__sub-menu">
+              <li>
+                <a href="">Аспірантура</a>
+              </li>
+              <li>
+                <a href="">Докторантура</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-menu__language">
+          <a class="header__language-link <?= $_SESSION['language'] == 'uk' ? 'active' : '' ?>"
+            href="<?= SITE_URL_UK ?>">
+            UA
+          </a>
+          <a class="header__language-link <?= $_SESSION['language'] == 'en' ? 'active' : '' ?>"
+            href="<?= SITE_URL_EN ?>">
+            EN
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <section class="slider">
+    <div class="slider__contet-wrap">
+      <div class="slider__img-block">
+        <img src="./img/slider-bcg.png" alt="">
+        <span>Всі новини</span>
+      </div>
+      <div class="slider__info">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus, vitae dolorem at illo inventore
+        impedit numquam quod error consequatur, veritatis neque et dicta nulla ipsa possimus pariatur ad consequuntur!10
+
+      </div>
+    </div>
+    <div class="slider__footer">
+      <span class="slider__data">
+        02.03.2023
+      </span>
+    </div>
+
+  </section>
+
+  <section class="projects content-block">
+    <h2 class="home__title">
+      Наші проєкти та програми
+    </h2>
+
+    <div class="card-wrap">
+      <article class="item-card ">
+        <h3 class="item-card__title">
+          ПРОГНОЗ НА КВАРТАЛ
+        </h3>
+        <img class="item-card__img" src="./img/item-img.png" alt="card-img">
+      </article>
+      <article class="item-card ">
+        <h3 class="item-card__title">
+          ПРОГНОЗ НА КВАРТАЛ
+        </h3>
+        <img class="item-card__img" src="./img/item-img.png" alt="card-img">
+      </article>
+      <article class="item-card ">
+        <h3 class="item-card__title">
+          ПРОГНОЗ НА КВАРТАЛ
+        </h3>
+        <img class="item-card__img" src="./img/item-img.png" alt="card-img">
+      </article>
+    </div>
+
+  </section>
+
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
